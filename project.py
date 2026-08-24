@@ -26,3 +26,12 @@ blurred = cv2.GaussianBlur(grey,(5,5),0)
 cv2.imshow("Blurred_image", blurred)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
+# Canny edge detection to find edges in the image
+# syntax: cv2.Canny(image,threshold_1,threshold_2)
+
+edged = cv2.Canny(blurred,75,255)
+cv2.imshow("Canny_Edges_image",edged)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
