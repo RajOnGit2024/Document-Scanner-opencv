@@ -14,6 +14,8 @@ The gole of this project is to performs automatic edge detection, 4-point perspe
 
 --> Applying Gaussian Blur : Gaussian blur is important as it blends away the tiny surface patterns,such as the wood grain, scratches on a desk, or paper texture,so the edge detector does not treat every tiny texture line as a border.
 
+--> Canny Edge detection: This is used to detect the edges of the paper/document
+
 
 
 ## Technologies used
