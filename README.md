@@ -8,7 +8,7 @@ The gole of this project is to performs automatic edge detection, 4-point perspe
 
 --> Load input image.
 
---> Resizr the original image for faster processing.
+--> Resize the original image for faster processing.
 
 --> Convert image to greyscale : This is important edge detection is    mathematically calculated by measuring how rapid the pixel intensity     changes from one pixel to the next.
 
